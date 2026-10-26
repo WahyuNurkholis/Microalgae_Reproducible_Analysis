@@ -1,0 +1,13 @@
+﻿Feature group,Extracted features,Formula or description,Purpose in this study
+RGB color features,"R, G, B mean and standard deviation","Mean and SD of red, green, and blue channel values within each ROI",Describes basic color intensity of the microalgae culture
+Grayscale intensity,Grayscale,0.299R + 0.587G + 0.114B,Represents overall image brightness and culture darkness
+HSV features,"H, S, V mean and standard deviation","Hue, saturation, and value converted from RGB/BGR image","Captures color tone, color purity, and brightness variation"
+CIELAB features,"L*, a*, b* mean and standard deviation","L* = lightness, a* = green-red axis, b* = blue-yellow axis",Describes perceptual color changes beyond RGB values
+Normalized RGB,"r, g, b","r = R/(R+G+B), g = G/(R+G+B), b = B/(R+G+B)",Reduces the effect of total brightness and emphasizes relative color contribution
+Color ratios,"G/R, G/B, R/B",Ratio between selected RGB channels,Highlights relative dominance of green color compared with red and blue channels
+Excess Green Index,"ExG raw, ExG norm",ExG raw = 2G − R − B; ExG norm = 2g − r − b,Enhances green culture signal in the PBR image
+Normalized Green-Red Difference Index,NGRDI,(G − R)/(G + R),Measures relative greenness compared with red intensity
+Visible Atmospherically Resistant Index,VARI,(G − R)/(G + R − B),Represents visible-band greenness while reducing brightness effects
+Green Leaf Index,GLI,(2G − R − B)/(2G + R + B),Describes green dominance using normalized RGB information
+Green-pixel fraction,Green fraction,Proportion of pixels classified as green within each ROI mask,Indicates the percentage of culture-colored area in each ROI
+Within-ROI variability,"SD of RGB, HSV, CIELAB, and selected indices",Standard deviation of pixel values within each ROI,"Captures opacity, light scattering, uneven culture distribution, bubbles, and visual heterogeneity"

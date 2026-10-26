@@ -1,0 +1,3 @@
+Target,Group,Test,p,Group1,Group2
+OD665,Environment,Mann-Whitney U,0.008684371229240621,Indoor,Outdoor
+OD750,Environment,Mann-Whitney U,0.021506179932511887,Indoor,Outdoor
